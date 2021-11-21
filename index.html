@@ -1,1 +1,13 @@
-<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>reza-hartono</title><link href="/css/app.70a8fcf2.css" rel="preload" as="style"><link href="/css/chunk-vendors.6f30c889.css" rel="preload" as="style"><link href="/js/app.b9a50f94.js" rel="preload" as="script"><link href="/js/chunk-vendors.e241ef1f.js" rel="preload" as="script"><link href="/css/chunk-vendors.6f30c889.css" rel="stylesheet"><link href="/css/app.70a8fcf2.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but reza-hartono doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="https://platform-api.sharethis.com/js/sharethis.js#property=6176cb1886572e0012d91ec3&product=sticky-share-buttons" async></script><script src="/js/chunk-vendors.e241ef1f.js"></script><script src="/js/app.b9a50f94.js"></script></body></html>
+<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>reza-hartono</title><link href="/css/app.d9ab7ccf.css" rel="preload" as="style"><link href="/css/chunk-vendors.6f30c889.css" rel="preload" as="style"><link href="/js/app.c5734207.js" rel="preload" as="script"><link href="/js/chunk-vendors.fa7486a7.js" rel="preload" as="script"><link href="/css/chunk-vendors.6f30c889.css" rel="stylesheet"><link href="/css/app.d9ab7ccf.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but reza-hartono doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="https://platform-api.sharethis.com/js/sharethis.js#property=6176cb1886572e0012d91ec3&product=sticky-share-buttons" async></script><script>const scriptURL =
+      "https://script.google.com/macros/s/AKfycbzCFNoMlm77Sf6DVe-lBCEzqMS_Z7HqRebVXfilED9_YbzH54Fc7OH8mcYnbvaW6fHZoQ/exec";
+    const form = document.forms["contact-us"];
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      fetch(scriptURL, {
+          method: "POST",
+          body: new FormData(form),
+        })
+        .then((response) => console.log("Success!", response))
+        .catch((error) => console.error("Error!", error.message));
+    });</script><script src="/js/chunk-vendors.fa7486a7.js"></script><script src="/js/app.c5734207.js"></script></body></html>
