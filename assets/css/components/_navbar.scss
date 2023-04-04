@@ -1,0 +1,30 @@
+@import '../_variables';
+
+.navbar {
+    height: 88px;
+    padding: 10px 0;
+}
+
+li.nav-item {
+    margin: 0 10px !important;
+    display: inline-block;
+
+    .nav-link {
+        color: $c-dark;
+        font-size: $fs-sub-title;
+        font-weight: $fw-light;
+
+        &.active {
+            font-weight: $fw-semi-bold;
+        }
+
+        &:hover {
+            font-weight: $fw-semi-bold;
+        }
+    }
+}
+
+.navbar-brand {
+    font-size: $fs-h2;
+    font-weight: $fw-bold;
+}

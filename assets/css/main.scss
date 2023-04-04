@@ -1,0 +1,25 @@
+@import '_variables';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+@import 'components/_navbar';
+
+@import 'components/_button';
+
+@import 'components/_input';
+
+@import 'components/_text';
+
+@import 'components/_hero';
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: $c-light;
+}
+
+.section-margin {
+    margin-top: 50px;
+}

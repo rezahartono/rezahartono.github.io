@@ -1,0 +1,46 @@
+@import '../_variables';
+
+.btn {
+    border-radius: 10px;
+    padding: 10px;
+    font-size: $fs-body;
+    font-weight: $fw-medium;
+}
+
+.btn-small {
+    font-size: $fs-small;
+}
+
+.btn-medium {
+    padding: 12px 20px !important;
+    font-size: $fs-normal;
+}
+
+.btn-large {
+    padding: 14px 20px !important;
+    font-size: $fs-sub-title;
+}
+
+.btn-primary {
+    background-color: $c-primary;
+    border: 1px solid $c-primary;
+    color: $c-light !important;
+
+    &:hover {
+        border: 1px solid $c-primary;
+        background-color: $c-light;
+        color: $c-primary !important;
+    }
+}
+
+.btn-warning {
+    background-color: $c-warning;
+    border: 1px solid $c-warning;
+    color: $c-light !important;
+
+    &:hover {
+        border: 1px solid $c-warning;
+        background-color: $c-light;
+        color: $c-warning !important;
+    }
+}

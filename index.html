@@ -10,41 +10,61 @@
     <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/dist/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/dist/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="#">Reza Hartono</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggler"
+                aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse ms-lg-auto" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <ul class="navbar-nav ms-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Tentang Saya</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link" href="#">Layanan</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary btn-medium" href="#">Contact Us</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-12 section-margin">
+                <section id="hero-section">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="/assets/images/hero-image.png" alt="Reza Harono" height="600" />
+                        <span class="hero-name">
+                            <span class="text-dark">Nama Saya </span>
+                            <span class="text-warning">Reza Hartono</span>
+                        </span>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
     <script src="/assets//js/jquery-3.6.4.min.js"></script>
     <script src="assets/dist/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/dist/fontawesome/js/all.min.js"></script>
-    <script src="/assets/js/pwa-service.js"></script>
     <script src="/assets/js/util.js"></script>
     <script src="/assets/js/common.js"></script>
+    <!-- <script src="/assets/js/pwa-service.js"></script> -->
 </body>
 
 </html>
