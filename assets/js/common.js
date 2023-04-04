@@ -1,3 +1,4 @@
 $(document).ready(function () {
-    getResponse('/manifest.json')
+    // for disable open dev tools
+    // disableConsole()
 })
