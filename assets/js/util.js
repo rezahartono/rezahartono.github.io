@@ -20,3 +20,18 @@ function disableConsole() {
         e.preventDefault();
     });
 }
+
+function initDownload() {
+    var filePath = '/data/Reza Hartono.pdf'
+
+    var link = $("<a>")
+        .attr("href", filePath)
+        .attr("download", "Reza Hartono.pdf")
+        .appendTo("body");
+
+    // Trigger the download
+    link[0].click();
+
+    // Remove the link from the DOM
+    link.remove();
+}

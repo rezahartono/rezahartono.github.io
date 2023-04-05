@@ -4,19 +4,36 @@
   padding: 10px 0;
 }
 
-li.nav-item {
+li.nb-item {
   margin: 0 10px !important;
   display: inline-block;
 }
-li.nav-item .nav-link {
+li.nb-item .nav-link {
   color: #252328;
   font-size: 18px;
   font-weight: 300;
 }
-li.nav-item .nav-link.active {
+li.nb-item .nav-link.active {
   font-weight: 600;
 }
-li.nav-item .nav-link:hover {
+li.nb-item .nav-link:hover {
+  font-weight: 600;
+}
+
+li.ft-item {
+  margin: 0 5px !important;
+  display: inline-block;
+}
+li.ft-item .nav-link {
+  text-decoration: none;
+  color: #FBF8FF !important;
+  font-size: 14px;
+  font-weight: 300;
+}
+li.ft-item .nav-link.active {
+  font-weight: 600;
+}
+li.ft-item .nav-link:hover {
   font-weight: 600;
 }
 
@@ -66,6 +83,35 @@ li.nav-item .nav-link:hover {
   border: 1px solid #F8BA00;
   background-color: #FBF8FF;
   color: #F8BA00 !important;
+}
+
+.form-label {
+  font-size: 14px;
+}
+
+input.form-control {
+  height: 55px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #252328;
+}
+input.form-control:hover, input.form-control:focus {
+  background-color: transparent !important;
+  border-color: rgb(83, 29, 154);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(83, 29, 154, 0.25);
+}
+
+textarea.form-control {
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #252328;
+}
+textarea.form-control:hover, textarea.form-control:focus {
+  background-color: transparent !important;
+  border-color: rgb(83, 29, 154);
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(83, 29, 154, 0.25);
 }
 
 .text-primary {
@@ -181,8 +227,28 @@ li.nav-item .nav-link:hover {
 }
 .portfolio-card .card-image {
   height: 280px;
-  color: #ADA2B2;
+  margin-bottom: 30px;
+  background-color: #ADA2B2;
   border-radius: 20px;
+}
+
+.splide__arrow {
+  width: 55px;
+  height: 55px;
+}
+
+.splide__slide.portfolio-item {
+  width: 325px !important;
+  margin: 0 20px;
+}
+
+.footer {
+  background: #252328;
+  padding: 20px;
+}
+
+.nav-footer {
+  padding: 10px;
 }
 
 * {
@@ -203,4 +269,8 @@ body {
 
 .text-service {
   margin-top: 30px;
+}
+
+.container-contact {
+  padding: 0 250px;
 }/*# sourceMappingURL=main.css.map */

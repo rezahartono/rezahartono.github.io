@@ -7,10 +7,23 @@
     padding: 20px;
     background-color: $c-light;
     box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
-    
-    .card-image{
+
+    .card-image {
         height: 280px;
-        color: $c-secondary;
+        margin-bottom: 30px;
+        background-color: $c-secondary;
         border-radius: 20px;
+    }
+}
+
+.splide__arrow {
+    width: 55px;
+    height: 55px;
+}
+
+.splide__slide {
+    &.portfolio-item {
+        width: 325px !important;
+        margin: 0 20px;
     }
 }

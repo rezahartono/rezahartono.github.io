@@ -2,6 +2,9 @@ var stickyElement = $('.sticky-top');
 
 $(document).ready(function () {
     // for disable open dev tools
+    $('#download-cv').click(function () {
+        initDownload()
+    })
     // disableConsole()
 })
 

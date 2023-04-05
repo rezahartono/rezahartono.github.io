@@ -24,19 +24,19 @@
             </button>
             <div class="collapse navbar-collapse" id="navbar-toggler">
                 <ul class="navbar-nav ms-lg-auto">
-                    <li class="nav-item">
+                    <li class="nav-item nb-item">
                         <a class="nav-link active" href="#">Beranda</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nb-item">
                         <a class="nav-link" href="#">Tentang Saya</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nb-item">
                         <a class="nav-link" href="#">Layanan</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nb-item">
                         <a class="nav-link" href="#">Portfolio</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nb-item">
                         <a class="btn btn-primary btn-medium" href="#">Contact Us</a>
                     </li>
                 </ul>
@@ -128,7 +128,8 @@
                                     <span class="text-h3">Tertarik dengan saya?</span>
                                     <div class="d-block mt-2">
                                         <a href="#" class="btn btn-primary btn-large d-inline-block me-2">Contact Us</a>
-                                        <a href="#" class="btn btn-warning btn-large d-inline-block ">Download CV</a>
+                                        <button id="download-cv"
+                                            class="btn btn-warning btn-large d-inline-block ">Download CV</button>
                                     </div>
                                 </div>
                             </div>
@@ -174,13 +175,38 @@
                             <section class="splide" aria-label="Portfolio">
                                 <div class="splide__track p-3">
                                     <ul class="splide__list">
-                                        <li class="splide__slide">
+                                        <li class="splide__slide portfolio-item">
+                                            <div class="portfolio-card">
+                                                <div class="card-image"></div>
+                                                <button class="btn btn-warning btn-large">Lihat Selengkapnya</button>
+                                            </div>
+                                        </li>
+                                        <li class="splide__slide portfolio-item">
+                                            <div class="portfolio-card">
+                                                <div class="card-image"></div>
+                                                <button class="btn btn-warning btn-large">Lihat Selengkapnya</button>
+                                            </div>
+                                        </li>
+                                        <li class="splide__slide portfolio-item">
+                                            <div class="portfolio-card">
+                                                <div class="card-image"></div>
+                                                <button class="btn btn-warning btn-large">Lihat Selengkapnya</button>
+                                            </div>
+                                        </li>
+                                        <li class="splide__slide portfolio-item">
+                                            <div class="portfolio-card">
+                                                <div class="card-image"></div>
+                                                <button class="btn btn-warning btn-large">Lihat Selengkapnya</button>
+                                            </div>
+                                        </li>
+                                        <li class="splide__slide portfolio-item">
                                             <div class="portfolio-card">
                                                 <div class="card-image"></div>
                                                 <button class="btn btn-warning btn-large">Lihat Selengkapnya</button>
                                             </div>
                                         </li>
                                     </ul>
+                                    <ul class="splide__pagination d-none"></ul>
                                 </div>
                             </section>
                         </div>
@@ -188,8 +214,72 @@
                 </section>
             </div>
             <!-- end -->
+            <!-- contact us -->
+            <div class="col-12 section-margin">
+                <section id="contact-us">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <span class="text-h1 fw-bold">
+                                Kontak Saya
+                            </span>
+                            <div class="container-contact mt-3 text-start">
+                                <div class="mb-3">
+                                    <label for="full_name" class="form-label">Nama Lengkap</label>
+                                    <input type="text" class="form-control" id="full_name" name="full_name"
+                                        placeholder="Full Name">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Email">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="messages" class="form-label">Pesan</label>
+                                    <textarea class="form-control" id="messages" rows="5"
+                                        placeholder="Tulis Pesan Anda"></textarea>
+                                </div>
+                                <button class="btn btn-primary btn-large">Kirim Pesan</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- end -->
         </div>
     </div>
+
+    <footer class="footer section-margin">
+        <div class="row">
+            <div class="col-12 text-center">
+                <span class="text-h1 text-light fw-bold">Reza <span class="text-warning">Hartono</span></span>
+            </div>
+            <div class="col-12 text-center">
+                <span class="text-normal text-light">Useful Links :</span>
+            </div>
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <ul class="nav nav-footer">
+                    <li class="nav-item ft-item">
+                        <a class="nav-link active" href="#">Beranda</a>
+                    </li>
+                    <li class="nav-item ft-item">
+                        <a class="nav-link" href="#">Tentang Saya</a>
+                    </li>
+                    <li class="nav-item ft-item">
+                        <a class="nav-link" href="#">Layanan</a>
+                    </li>
+                    <li class="nav-item ft-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item ft-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 text-center">
+                <span class="text-normal text-light">2023&copy;Reza Hartono</span>
+            </div>
+        </div>
+    </footer>
 
     <script src="/assets//js/jquery-3.6.4.min.js"></script>
     <script src="assets/dist/bootstrap/js/bootstrap.bundle.min.js"></script>

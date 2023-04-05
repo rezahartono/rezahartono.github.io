@@ -5,13 +5,33 @@
     padding: 10px 0;
 }
 
-li.nav-item {
+li.nb-item {
     margin: 0 10px !important;
     display: inline-block;
 
     .nav-link {
         color: $c-dark;
         font-size: $fs-sub-title;
+        font-weight: $fw-light;
+
+        &.active {
+            font-weight: $fw-semi-bold;
+        }
+
+        &:hover {
+            font-weight: $fw-semi-bold;
+        }
+    }
+}
+
+li.ft-item {
+    margin: 0 5px !important;
+    display: inline-block;
+
+    .nav-link {
+        text-decoration: none;
+        color: $c-light !important;
+        font-size: $fs-body;
         font-weight: $fw-light;
 
         &.active {
