@@ -1,0 +1,16 @@
+@import '../_variables';
+
+.portfolio-card {
+    width: 325px;
+    height: 400px;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: $c-light;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+    
+    .card-image{
+        height: 280px;
+        color: $c-secondary;
+        border-radius: 20px;
+    }
+}

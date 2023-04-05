@@ -14,6 +14,8 @@
 
 @import 'components/_work-experience';
 
+@import 'components/_card';
+
 * {
     font-family: 'Inter', sans-serif;
 }
@@ -24,4 +26,12 @@ body {
 
 .section-margin {
     margin-top: 50px;
+}
+
+.service-image {
+    height: 540px;
+}
+
+.text-service {
+    margin-top: 30px;
 }

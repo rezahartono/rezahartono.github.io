@@ -1,29 +1,45 @@
 @import '../_variables';
 
-.text-primary{
+.text-primary {
     color: $c-primary;
 }
 
-.text-secondary{
+.text-secondary {
     color: $c-secondary;
 }
 
-.text-warning{
+.text-warning {
     color: $c-warning;
 }
 
-.text-success{
+.text-success {
     color: $c-success;
 }
 
-.text-danger{
+.text-danger {
     color: $c-danger;
 }
 
-.text-info{
+.text-info {
     color: $c-info;
 }
 
-.text-dark{
+.text-dark {
     color: $c-dark;
+}
+
+.text-h1 {
+    font-size: $fs-h1;
+}
+
+.text-h2 {
+    font-size: $fs-h2;
+}
+
+.text-h3 {
+    font-size: $fs-h3;
+}
+
+.text-normal {
+    font-size: $fs-normal;
 }

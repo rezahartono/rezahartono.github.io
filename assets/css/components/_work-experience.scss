@@ -1,0 +1,13 @@
+@import '../_variables';
+
+.work-experience-container {
+    background-color: $c-light;
+    border-radius: 20px;
+    margin: 0 80px;
+    padding: 20px 40px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15), 3px 1px 10px rgba(0, 0, 0, 0.15);
+}
+
+.company-logo {
+    height: 80px;
+}
