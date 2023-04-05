@@ -1,5 +1,51 @@
 @import '../_variables';
 
+#hero-section {
+    position: relative;
+}
+
+.hero-social-media-container {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    .hero-social-media {
+        width: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .social-media-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(6, 1fr);
+            row-gap: 5px;
+            margin: 20px 0;
+
+            .social-media-item {
+                text-align: center;
+                font-size: $fs-h2;
+                text-decoration: none;
+                color: $c-dark;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    color: $c-primary;
+                    transform: scale(1.5);
+                }
+            }
+        }
+
+        .social-media-outline {
+            width: 1px;
+            height: 150px;
+            background-color: $c-dark;
+        }
+    }
+}
+
 .hero-name {
     font-size: $fs-h1 !important;
     font-weight: $fw-bold;

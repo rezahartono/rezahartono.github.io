@@ -96,6 +96,47 @@ li.nav-item .nav-link:hover {
   color: #252328;
 }
 
+#hero-section {
+  position: relative;
+}
+
+.hero-social-media-container {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hero-social-media-container .hero-social-media {
+  width: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-social-media-container .hero-social-media .social-media-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  row-gap: 5px;
+  margin: 20px 0;
+}
+.hero-social-media-container .hero-social-media .social-media-grid .social-media-item {
+  text-align: center;
+  font-size: 26px;
+  text-decoration: none;
+  color: #252328;
+  transition: all 0.3s ease;
+}
+.hero-social-media-container .hero-social-media .social-media-grid .social-media-item:hover {
+  color: #531D9A;
+  transform: scale(1.5);
+}
+.hero-social-media-container .hero-social-media .social-media-outline {
+  width: 1px;
+  height: 150px;
+  background-color: #252328;
+}
+
 .hero-name {
   font-size: 36px !important;
   font-weight: 700;
