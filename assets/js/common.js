@@ -1,4 +1,5 @@
 var stickyElement = $('.sticky-top')
+var mediaQuery = window.matchMedia('(max-width: 768px)');
 
 $(document).ready(function () {
     // for disable open dev tools
@@ -30,8 +31,6 @@ var splide = new Splide('#splide-portfolio', {
 })
 
 splide.mount()
-
-var mediaQuery = window.matchMedia('(max-width: 768px)');
 
 var pageWork = 4
 
