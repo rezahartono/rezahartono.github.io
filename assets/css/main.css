@@ -205,6 +205,19 @@ textarea.form-control:hover, textarea.form-control:focus {
   margin-top: 25px;
 }
 
+.hero-image {
+  height: 600px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-image {
+    height: 250px;
+  }
+  .hero-name {
+    font-size: 26px !important;
+    text-align: center;
+  }
+}
 .work-experience-container {
   background-color: #FBF8FF;
   border-radius: 20px;
@@ -217,6 +230,20 @@ textarea.form-control:hover, textarea.form-control:focus {
   height: 80px;
 }
 
+.logo-container {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .work-experience-container {
+    margin: 0 20px;
+    padding: 10px 20px;
+    overflow: auto;
+  }
+}
 .portfolio-card {
   width: 325px;
   height: 400px;
@@ -273,4 +300,13 @@ body {
 
 .container-contact {
   padding: 0 250px;
+}
+
+@media only screen and (max-width: 768px) {
+  .service-image {
+    height: 300px;
+  }
+  .container-contact {
+    padding: 0 20px;
+  }
 }/*# sourceMappingURL=main.css.map */

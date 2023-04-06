@@ -50,7 +50,7 @@
             <div class="col-12 section-margin">
                 <section id="hero-section">
                     <div class="d-flex flex-column justify-content-center align-items-center">
-                        <img src="/assets/images/hero-image.png" alt="Reza Harono" height="600" />
+                        <img src="/assets/images/hero-image.png" class="hero-image" alt="Reza Harono" />
                         <span class="hero-name">
                             <span class="text-dark">Nama Saya </span>
                             <span class="text-warning">Reza Hartono</span>
@@ -83,19 +83,37 @@
             <!-- work experience  -->
             <div class="col-12 section-margin">
                 <section id="work-expperience">
-                    <div class="work-experience-container d-flex justify-content-center align-items-center">
-                        <div class="row w-100">
-                            <div class="col-3 d-flex justify-content-center align-items-center">
+                    <div class="work-experience-container d-block">
+                        <section class="splide" id="splide-work" aria-label="Portfolio">
+                            <div class="splide__track py-3 pe-md-5">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <div class="logo-container">
+                                            <img src="assets/images/mitratex.png" alt="mitratex" class="company-logo">
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="logo-container">
+                                            <img src="assets/images/lemurian.png" alt="mitratex" class="company-logo">
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="splide__pagination d-none"></ul>
+                                <div class="splide__arrows d-none"></div>
+                            </div>
+                        </section>
+                        <!-- <div class="row w-100 overflow-auto">
+                            <div class="col-3 d-inline-block mx-auto">
                                 <img src="assets/images/mitratex.png" alt="mitratex" class="company-logo">
                             </div>
-                            <div class="col-3 d-flex justify-content-center align-items-center">
+                            <div class="col-3 d-inline-block mx-auto">
                                 <img src="assets/images/lemurian.png" alt="mitratex" class="company-logo">
                             </div>
                             <div class="col-3">
                             </div>
                             <div class="col-3">
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </section>
             </div>
@@ -105,7 +123,11 @@
                 <section id="about-me">
                     <div class="row">
                         <div class="col-12 col-md-6">
-                            <p class="text-normal text-dark">Saya adalah seorang Mobile Developer, saat ini saya bekerja
+                            <span class="text-h1 fw-bold text-center d-block d-md-none">
+                                Tentang Saya
+                            </span>
+                            <p class="text-normal text-dark mt-2 mt-md-0">Saya adalah seorang Mobile Developer, saat ini
+                                saya bekerja
                                 di salah satu perusahaan IT
                                 di Jakarta. saya seorang lulusan
                                 SMK Negeri Teknik Komputer dan
@@ -125,9 +147,9 @@
                                 dan beberapa framework frontend lainnya.
                             </p>
                         </div>
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 mt-4 mt-md-0">
                             <div class="h-100 d-flex flex-column justify-content-around align-items-center">
-                                <span class="text-h1 fw-bold">
+                                <span class="text-h1 fw-bold d-none d-md-block">
                                     Tentang Saya
                                 </span>
                                 <div class="text-center">
@@ -163,7 +185,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 d-flex justify-content-end align-items-center">
+                        <div
+                            class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end align-items-center">
                             <img src="/assets/images/services.png" alt="services" class="service-image">
                         </div>
                     </div>
@@ -178,8 +201,8 @@
                             <span class="text-h1 fw-bold">
                                 Portofolio Saya
                             </span>
-                            <section class="splide" aria-label="Portfolio">
-                                <div class="splide__track py-3 pe-md-5">
+                            <section class="splide" id="splide-portfolio" aria-label="Portfolio">
+                                <div class="splide__track py-3 pe-5">
                                     <ul class="splide__list">
                                         <li class="splide__slide portfolio-item">
                                             <div class="portfolio-card">
@@ -265,7 +288,7 @@
                 <span class="text-normal text-light">Useful Links :</span>
             </div>
             <div class="col-12 d-flex justify-content-center align-items-center">
-                <ul class="nav nav-footer">
+                <ul class="nav nav-fill nav-footer text-center">
                     <li class="nav-item ft-item">
                         <a class="nav-link active" href="#">Beranda</a>
                     </li>
