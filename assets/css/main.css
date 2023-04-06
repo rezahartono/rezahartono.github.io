@@ -243,6 +243,9 @@ textarea.form-control:hover, textarea.form-control:focus {
     padding: 10px 20px;
     overflow: auto;
   }
+  .company-logo {
+    height: 60px;
+  }
 }
 .portfolio-card {
   width: 325px;
