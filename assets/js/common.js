@@ -17,8 +17,14 @@ $(window).scroll(function () {
     }
 });
 
+var pagePortfolio = 3
+
+if (mediaQuery.matches) {
+    pagePortfolio = 1
+}
+
 var splide = new Splide('#splide-portfolio', {
-    perPage: 3,
+    perPage: pagePortfolio,
     focus: 0,
     omitEnd: true,
 })
@@ -27,14 +33,14 @@ splide.mount()
 
 var mediaQuery = window.matchMedia('(max-width: 768px)');
 
-var page = 4
+var pageWork = 4
 
 if (mediaQuery.matches) {
-    page = 1
+    pageWork = 1
 }
 
 var splideWork = new Splide('#splide-work', {
-    perPage: page,
+    perPage: pageWork,
     focus: 0,
     omitEnd: true,
 })
