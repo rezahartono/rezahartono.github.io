@@ -22,4 +22,11 @@
     .company-logo {
         height: 60px;
     }
+
+        .splide__slide {
+            &.portfolio-item {
+                width: 325px !important;
+                margin: 0;
+            }
+        }
 }
