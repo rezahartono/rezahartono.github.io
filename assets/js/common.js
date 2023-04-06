@@ -5,7 +5,7 @@ $(document).ready(function () {
     $('#download-cv').click(function () {
         initDownload()
     })
-    // disableConsole()
+    disableConsole()
 })
 
 
