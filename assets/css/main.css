@@ -211,7 +211,7 @@ textarea.form-control:hover, textarea.form-control:focus {
 
 @media only screen and (max-width: 768px) {
   .hero-image {
-    height: 250px;
+    height: 220px;
   }
   .hero-name {
     font-size: 26px !important;
@@ -303,6 +303,10 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
   .service-image {
     height: 300px;
   }

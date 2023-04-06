@@ -17,13 +17,29 @@ $(window).scroll(function () {
     }
 });
 
-var splide = new Splide('.splide', {
+var splide = new Splide('#splide-portfolio', {
     perPage: 3,
     focus: 0,
     omitEnd: true,
 })
 
 splide.mount()
+
+var mediaQuery = window.matchMedia('(max-width: 768px)');
+
+var page = 4
+
+if (mediaQuery.matches) {
+    page = 1
+}
+
+var splideWork = new Splide('#splide-work', {
+    perPage: page,
+    focus: 0,
+    omitEnd: true,
+})
+
+splideWork.mount()
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbz9Nf_nkzKCJV-89P8RUiDNqY32iqhAz3UhKQme2Oxs6bUY-qy8ub_AdYtWn3Fvd7gaKA/exec'
 const form = document.forms['contact-us-form']
