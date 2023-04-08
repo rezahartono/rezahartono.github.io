@@ -10,9 +10,16 @@
 
     .card-image {
         height: 280px;
-        margin-bottom: 30px;
-        background-color: $c-secondary;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-radius: 20px;
+
+        .portfolio-image {
+            width: 200px;
+            height: 200px;
+        }
     }
 }
 

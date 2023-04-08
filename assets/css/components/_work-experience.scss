@@ -9,7 +9,7 @@
 }
 
 .company-logo {
-    height: 80px;
+    height: 70px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -23,10 +23,10 @@
         height: 60px;
     }
 
-        .splide__slide {
-            &.portfolio-item {
-                width: 325px !important;
-                margin: 0;
-            }
+    .splide__slide {
+        &.portfolio-item {
+            width: 325px !important;
+            margin: 0;
         }
+    }
 }

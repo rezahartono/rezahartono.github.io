@@ -14,6 +14,7 @@ $(document).ready(function () {
     $('#download-cv').click(function () {
         initDownload()
     })
+    prepareData()
     // disableConsole()
 })
 
@@ -55,39 +56,6 @@ $(window).scroll(function () {
     }
 });
 
-var pagePortfolio = 3
-
-if (mediaQuery.matches) {
-    pagePortfolio = 1
-}
-
-var splide = new Splide('#splide-portfolio', {
-    perPage: pagePortfolio,
-    // type: 'loop',
-    focus: 0,
-    omitEnd: true,
-    padding: {
-        left: 10,
-        right: 10,
-    }
-})
-
-splide.mount()
-
-var pageWork = 4
-
-if (mediaQuery.matches) {
-    pageWork = 1
-}
-
-var splideWork = new Splide('#splide-work', {
-    perPage: pageWork,
-    focus: 0,
-    omitEnd: true,
-})
-
-splideWork.mount()
-
 const scriptURL = 'https://script.google.com/macros/s/AKfycbz9Nf_nkzKCJV-89P8RUiDNqY32iqhAz3UhKQme2Oxs6bUY-qy8ub_AdYtWn3Fvd7gaKA/exec'
 const form = document.forms['contact-us-form']
 
@@ -112,4 +80,22 @@ form.addEventListener('submit', e => {
                 .prop('selected', false)
         })
 })
+
+function prepareData() {
+    try {
+        $.getJSON('/data/x-data-application.json', function (data) {
+            if (data != null) {
+                var companies = data['work-experience']
+                var portfolios = data['portfolios']
+
+                console.log(portfolios)
+
+                workExperienceRenderer(companies)
+                portfolioRenderer(portfolios)
+            }
+        });
+    } catch (error) {
+        console.error(error)
+    }
+}
 

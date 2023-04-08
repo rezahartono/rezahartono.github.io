@@ -10,11 +10,66 @@
     "work-experience": [
         {
             "name": "PT. Mitratex Konsultan",
-            "logo": "/assets/images/mitratex.png"
+            "logo": "/assets/data/work-experience/mitratex.png"
         },
         {
             "name": "PT. Lemurian Inovasi Teknologi",
-            "logo": "/assets/images/lemurian.png"
+            "logo": "/assets/data/work-experience/lemurian.png"
+        }
+    ],
+    "portfolios": [
+        {
+            "title": "Rantaipasok",
+            "description": "",
+            "ui": [],
+            "image": "/assets/data/portfolio/rantaipasok.png"
+        },
+        {
+            "title": "Ultima Lintasarta",
+            "description": "",
+            "ui": [],
+            "image": "/assets/data/portfolio/lintas-kominfo.png"
+        },
+        {
+            "title": "IWAPI Marketplace",
+            "description": "",
+            "ui": [],
+            "image": "/assets/data/portfolio/iwapi.png"
+        },
+        {
+            "title": "ADM Customer Facing",
+            "description": "",
+            "ui": [],
+            "image": "/assets/data/portfolio/adm.png"
+        },
+        {
+            "title": "PTP Customer Facing",
+            "description": "",
+            "ui": [],
+            "image": "/assets/data/portfolio/ptp.png"
+        },
+        {
+            "title": "ESTIM ITSM",
+            "description": "",
+            "ui": [],
+            "image": "/assets/data/portfolio/estim-itsm.png"
+        },
+        {
+            "title": "PIH Customer Facing",
+            "description": "",
+            "image": "/assets/data/portfolio/pih.png"
+        },
+        {
+            "title": "SOMEAH",
+            "description": "",
+            "ui": [],
+            "image": "/assets/data/portfolio/someah.png"
+        },
+        {
+            "title": "Lintasarta WTM",
+            "description": "",
+            "ui": [],
+            "image": "/assets/data/portfolio/lintas-wtm.png"
         }
     ]
 }

@@ -1,11 +1,3 @@
-function getResponse(filePath) {
-    fetch(filePath)
-        .then(response => response.json())
-        .then(data => {
-            return data
-        })
-}
-
 function disableConsole() {
     $(document).keydown(function (event) {
         if (event.keyCode == 123) {

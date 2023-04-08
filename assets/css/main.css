@@ -227,7 +227,7 @@ textarea.form-control:hover, textarea.form-control:focus {
 }
 
 .company-logo {
-  height: 80px;
+  height: 70px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -254,9 +254,15 @@ textarea.form-control:hover, textarea.form-control:focus {
 }
 .portfolio-card .card-image {
   height: 280px;
-  margin-bottom: 30px;
-  background-color: #ADA2B2;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 20px;
+}
+.portfolio-card .card-image .portfolio-image {
+  width: 200px;
+  height: 200px;
 }
 
 .splide__arrow {
