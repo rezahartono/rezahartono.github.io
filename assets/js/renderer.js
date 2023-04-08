@@ -5,7 +5,7 @@ function workExperienceRenderer(companies) {
 
     companies.forEach(e => {
         html += "<li class=\"splide__slide d-flex justify-content-center align-items-center\">"
-            + "<img src =\"" + e.logo + "\" alt =\"" + e.name + "\" class=\"company-logo\" >"
+            + "<img src =\"" + e.logo + "\" alt =\"" + e.name + "\" class=\"company-logo\" loading=\"lazy\">"
             + "</li>"
     })
 
@@ -39,7 +39,7 @@ function portfolioRenderer(portfolios) {
         html += "<li class=\"splide__slide portfolio-item d-flex justify-content-center align-items-center px-2\">"
             + "<div class=\"portfolio-card\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"" + e.title + "\">"
             + "<div class=\"card-image\">"
-            + "<img src=\"" + e.image + "\" alt=\"adm\" class=\"portfolio-image\">"
+            + "<img src=\"" + e.image + "\" alt=\"adm\" class=\"portfolio-image\" loading=\"lazy\">"
             + "</div>"
             + "<button class=\"btn btn-warning btn-large\">Lihat Selengkapnya</button>"
             + "</div>"
