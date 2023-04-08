@@ -32,8 +32,11 @@ function workExperienceRenderer(companies) {
 
 function portfolioRenderer(portfolios) {
     var element = $('#list-portfolio')
+    var modalSection = $('#modal-section')
 
     var html = ""
+
+    var modal = ""
 
     portfolios.forEach(e => {
         html += "<li class=\"splide__slide portfolio-item d-flex justify-content-center align-items-center px-2\">"
@@ -41,12 +44,30 @@ function portfolioRenderer(portfolios) {
             + "<div class=\"card-image\">"
             + "<img src=\"" + e.image + "\" alt=\"adm\" class=\"portfolio-image\" loading=\"lazy\">"
             + "</div>"
-            + "<button class=\"btn btn-warning btn-large\">Lihat Selengkapnya</button>"
+            + "<button class=\"btn btn-warning btn-large\" data-bs-toggle=\"modal\" data-bs-target=\"#" + e.title.trim().replaceAll(" ", "-") + "\">Lihat Selengkapnya</button>"
             + "</div>"
             + "</li>"
+
+        modal += "<div id=\"" + e.title.trim().replaceAll(" ", "-") + "\" class=\"modal fade\" data-bs-backdrop=\"static\" data-bs-keyboard=\"false\" tabindex=\"-1\" aria-labelledby=\"" + e.title.trim().replaceAll(" ", "-") + "Label\" aria-hidden=\"true\">"
+            + "<div class=\"modal-dialog modal-dialog-centered modal-dialog-scrollable\">"
+            + "    <div class=\"modal-content\">"
+            + "        <div class=\"modal-header\">"
+            + "            <h1 class=\"modal-title fs-5\" id=\"RantaiPasokLabel\">" + e.title + "</h1>"
+            + "            <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button>"
+            + "        </div>"
+            + "        <div class=\"modal-body\">"
+            + e.description
+            + "        </div>"
+            + "        <div class=\"modal-footer\">"
+            + "            <button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">Close</button>"
+            + "        </div>"
+            + "    </div>"
+            + "</div>"
+            + "</div>"
     })
 
     element.append(html)
+    modalSection.append(modal)
 
     var pagePortfolio = 3
 

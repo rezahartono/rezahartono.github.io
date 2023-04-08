@@ -7,8 +7,7 @@
         "email": "mailto:rezaaahartono@gmail.com",
         "github": "https://github.com/rezahartono"
     },
-    "work-experience": [
-        {
+    "work-experience": [{
             "name": "PT. Mitratex Konsultan",
             "logo": "/assets/data/work-experience/mitratex.png"
         },
@@ -17,8 +16,7 @@
             "logo": "/assets/data/work-experience/lemurian.png"
         }
     ],
-    "portfolios": [
-        {
+    "portfolios": [{
             "title": "Rantaipasok",
             "description": "",
             "ui": [],
@@ -26,7 +24,7 @@
         },
         {
             "title": "Ultima Lintasarta",
-            "description": "",
+            "description": "<p><b>Ultima Lintasarta</b> adalah aplikasi Customer Facing Lintasarta, yang di buat untuk customer <b>Kominfo</b>.<br>aplikasi ini dibuat dengan teknologi framework flutter dengan sate management nya provider, dengan transaksi data mengunakan API. <br>didalam aplikasi ini terdapat beberapa menu dan dashboard untuk menunjang kebutuhan user dari kominfo. </p>",
             "ui": [],
             "image": "/assets/data/portfolio/lintas-kominfo.png"
         },
