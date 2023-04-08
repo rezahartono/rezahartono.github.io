@@ -6,7 +6,15 @@ const urlsToCache = [
     '/assets/js/jquery-3.6.4.min.js',
     '/assets/js/util.js',
     '/assets/js/common.js',
-    '/assets/images/favicon.ico'
+    '/assets/js/renderer.js',
+    '/assets/dist/bootstrap/css/bootstrap.min.css',
+    '/assets/dist/bootstrap/bootstrap.bundle.js',
+    '/assets/dist/fontawesome/css/all.min.css',
+    '/assets/dist/fontawesome/js/all.min.js',
+    '/assets/dist/splide/css/splide.min.css',
+    '/assets/dist/splide/js/splide.min.js',
+    '/assets/dist/sweetalert/sweetalert2.all.min.js',
+    '/assets/images/favicon.ico',
 ];
 
 self.addEventListener('install', event => {

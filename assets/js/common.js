@@ -10,12 +10,13 @@ var serviceLink = $('#service-link')
 var portfolioLink = $('#portfolio-link')
 
 $(document).ready(function () {
-    // for disable open dev tools
-    $('#download-cv').click(function () {
-        initDownload()
-    })
     prepareData()
-    // disableConsole()
+    // for disable open dev tools
+    disableConsole()
+})
+
+$('#download-cv').click(function () {
+    initDownload()
 })
 
 
