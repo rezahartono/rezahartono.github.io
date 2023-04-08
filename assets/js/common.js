@@ -1,17 +1,54 @@
 var stickyElement = $('.sticky-top')
 var mediaQuery = window.matchMedia('(max-width: 768px)');
+var about = $('#about-me').offset().top - 150
+var service = $('#services').offset().top - 150
+var portfolio = $('#portfolio').offset().top - 150
+var contactUs = $('#contact').offset().top - 150
+var homeLink = $('#home-link')
+var aboutLink = $('#about-link')
+var serviceLink = $('#service-link')
+var portfolioLink = $('#portfolio-link')
 
 $(document).ready(function () {
     // for disable open dev tools
     $('#download-cv').click(function () {
         initDownload()
     })
-    disableConsole()
+    // disableConsole()
 })
 
 
 $(window).scroll(function () {
-    if ($(window).scrollTop() > 0) {
+    var scrollTop = $(this).scrollTop()
+
+    if (scrollTop >= about && scrollTop < service) {
+        homeLink.removeClass('active')
+        aboutLink.addClass('active')
+        serviceLink.removeClass('active')
+        portfolioLink.removeClass('active')
+    } else if (scrollTop >= service && scrollTop < portfolio) {
+        homeLink.removeClass('active')
+        aboutLink.removeClass('active')
+        serviceLink.addClass('active')
+        portfolioLink.removeClass('active')
+    } else if (scrollTop >= portfolio && scrollTop < contactUs) {
+        homeLink.removeClass('active')
+        aboutLink.removeClass('active')
+        serviceLink.removeClass('active')
+        portfolioLink.addClass('active')
+    } else if (scrollTop > contactUs) {
+        homeLink.removeClass('active')
+        aboutLink.removeClass('active')
+        serviceLink.removeClass('active')
+        portfolioLink.removeClass('active')
+    } else {
+        homeLink.addClass('active')
+        aboutLink.removeClass('active')
+        serviceLink.removeClass('active')
+        portfolioLink.removeClass('active')
+    }
+
+    if (scrollTop > 0) {
         stickyElement.addClass('shadow')
     } else {
         stickyElement.removeClass('shadow')
@@ -26,8 +63,13 @@ if (mediaQuery.matches) {
 
 var splide = new Splide('#splide-portfolio', {
     perPage: pagePortfolio,
+    // type: 'loop',
     focus: 0,
     omitEnd: true,
+    padding: {
+        left: 10,
+        right: 10,
+    }
 })
 
 splide.mount()

@@ -1,10 +1,20 @@
 {
     "social-media": {
-        "linkedin": "",
-        "instagram": "",
-        "whatsapp": "",
-        "facebook": "",
-        "email": "",
-        "github": ""
-    }
+        "linkedin": "https://www.linkedin.com/in/reza-hartono/",
+        "instagram": "https://www.instagram.com/rezaahartono/",
+        "whatsapp": "https://wa.me/6285171042001",
+        "facebook": "https://www.facebook.com/reza.hr.11",
+        "email": "mailto:rezaaahartono@gmail.com",
+        "github": "https://github.com/rezahartono"
+    },
+    "work-experience": [
+        {
+            "name": "PT. Mitratex Konsultan",
+            "logo": "/assets/images/mitratex.png"
+        },
+        {
+            "name": "PT. Lemurian Inovasi Teknologi",
+            "logo": "/assets/images/lemurian.png"
+        }
+    ]
 }
