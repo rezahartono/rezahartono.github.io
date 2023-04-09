@@ -39,6 +39,8 @@ function portfolioRenderer(portfolios) {
     var modal = ""
 
     portfolios.forEach(e => {
+        captures = ""
+
         html += "<li class=\"splide__slide portfolio-item d-flex justify-content-center align-items-center px-2\">"
             + "<div class=\"portfolio-card\" data-bs-toggle=\"tooltip\" data-bs-placement=\"top\" data-bs-title=\"" + e.title + "\">"
             + "<div class=\"card-image\">"
@@ -48,6 +50,14 @@ function portfolioRenderer(portfolios) {
             + "</div>"
             + "</li>"
 
+
+        e.ui?.forEach(el => {
+            captures += "<div class=\"col-6 col-lg-3 d-flex justify-content-center align-items-center my-2\">"
+                + "<img src=\"" + el + "\" alt=\"" + e.name + "\" class=\"capture-image mx-1 border border-1\">"
+                + "</div>"
+
+        })
+
         modal += "<div id=\"" + e.title.trim().replaceAll(" ", "-") + "\" class=\"modal fade\" data-bs-backdrop=\"static\" data-bs-keyboard=\"false\" tabindex=\"-1\" aria-labelledby=\"" + e.title.trim().replaceAll(" ", "-") + "Label\" aria-hidden=\"true\">"
             + "<div class=\"modal-dialog modal-dialog-centered modal-dialog-scrollable\">"
             + "    <div class=\"modal-content\">"
@@ -56,7 +66,16 @@ function portfolioRenderer(portfolios) {
             + "            <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></button>"
             + "        </div>"
             + "        <div class=\"modal-body\">"
+            + "<div class=\"row\">"
+            + " <div class=\"col-12\">"
             + e.description
+            + " </div>"
+            + " <div class=\"col-12\">"
+            + " <div class=\"row\" id=\"captures\">"
+            + captures
+            + " </div>"
+            + " </div>"
+            + "</div>"
             + "        </div>"
             + "        <div class=\"modal-footer\">"
             + "            <button type=\"button\" class=\"btn btn-secondary\" data-bs-dismiss=\"modal\">Close</button>"

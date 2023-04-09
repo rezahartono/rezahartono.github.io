@@ -12,7 +12,7 @@ var portfolioLink = $('#portfolio-link')
 $(document).ready(function () {
     prepareData()
     // for disable open dev tools
-    disableConsole()
+    // disableConsole()
 })
 
 $('#download-cv').click(function () {
