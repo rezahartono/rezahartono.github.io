@@ -18,7 +18,7 @@
     ],
     "portfolios": [{
             "title": "Rantaipasok",
-            "description": "",
+            "description": "<p><b>Rantaipasok</b> adalah project mobile apps pertama saya yang dibuat dengan 3 versi yaitu Support, Marketplace dan POS.<br><br> untuk versi mobilenya sendiri rantaipasok dibuat emnggunakan teknologi Framework Flutter dengan Povider sebagai state management nya.<br><br>terdapat beberapa fitur yang menonjol dalam aplikasi ini seperti payment gateway menggunakan Midtrans, dll</p>",
             "ui": [],
             "image": "/assets/data/portfolio/rantaipasok.png"
         },
@@ -35,7 +35,7 @@
         },
         {
             "title": "IWAPI Marketplace",
-            "description": "",
+            "description": "<p><b>Rantaipasok IWAPI</b> adalah salah satu instance aplikasi dari <b>Rantaipasok</b> untuk organisasi IWAPI sebagai wadah marketplacenya.<br><br>Berbeda dengan aplikasi sebelumnya Rantaipasok IWAPI ini hanya dibuat dengan menggunakan versi WebView</p>",
             "ui": [],
             "image": "/assets/data/portfolio/iwapi.png"
         },

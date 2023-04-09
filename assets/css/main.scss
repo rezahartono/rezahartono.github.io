@@ -66,6 +66,10 @@ body {
         padding: 10px 0;
     }
 
+    .capture-image {
+        max-height: 220px;
+    }
+
     .navbar-toggler {
         &:focus {
             border: none;
