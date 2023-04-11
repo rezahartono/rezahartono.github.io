@@ -41,13 +41,13 @@
         },
         {
             "title": "ADM Customer Facing",
-            "description": "<p><b>ADM Customer Facing</b> adalah salah satu instance aplikasi <b>ESTIM ITSM</b> di customer PT. Astra Daihatsu Motor.<br><br>aplikasi ini masih sama dengan yang sebelumnya yaitu menggunakan teknologi Framework Flutter dan Provider sebagai state management nya.<br>di dalam aplikasi ini terdapat beberapa module ITSM seperti Incident, Request, Approval dll. dengan integrasi menggunakan Rest API</p>",
+            "description": "<p><b>ADM Customer Facing</b> adalah salah satu instance aplikasi <b>ESTIM ITSM</b> di customer PT. Astra Daihatsu Motor.<br><br>Aplikasi ini masih sama dengan yang sebelumnya yaitu menggunakan teknologi Framework Flutter dan Provider sebagai state management nya.<br><br>di dalam aplikasi ini terdapat beberapa module ITSM seperti Incident, Request, Approval dll. dengan integrasi menggunakan Rest API</p>",
             "ui": [],
             "image": "/assets/data/portfolio/adm.png"
         },
         {
-            "title": "PTP Customer Facing",
-            "description": "",
+            "title": "Pelindo TPK",
+            "description": "<p><b>Pelindo TPK</b> adalah aplikasi ITSM customer yang dibuat untuk PT. Pelindo Terminal Petikemas.<br>Aplikasi ini dibuild menggunakan teknologi Framework Flutter, dan Provider sebagai state management nya.<br><br>Didalam aplikasi ini terdapat beberapa modul ITSM seperti Incident, Request, Approval dll.<b>selain itu aplikasi ini menggunakan Rest API sebagai transaksi data dan JWT untuk keamanan datanya</b></p>",
             "ui": [],
             "image": "/assets/data/portfolio/ptp.png"
         },
