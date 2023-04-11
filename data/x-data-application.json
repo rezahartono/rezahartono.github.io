@@ -47,13 +47,13 @@
         },
         {
             "title": "Pelindo TPK",
-            "description": "<p><b>Pelindo TPK</b> adalah aplikasi ITSM customer yang dibuat untuk PT. Pelindo Terminal Petikemas.<br>Aplikasi ini dibuild menggunakan teknologi Framework Flutter, dan Provider sebagai state management nya.<br><br>Didalam aplikasi ini terdapat beberapa modul ITSM seperti Incident, Request, Approval dll.<b>selain itu aplikasi ini menggunakan Rest API sebagai transaksi data dan JWT untuk keamanan datanya</b></p>",
+            "description": "<p><b>Pelindo TPK</b> adalah aplikasi ITSM customer yang dibuat untuk PT. Pelindo Terminal Petikemas.<br>Aplikasi ini dibuild menggunakan teknologi Framework Flutter, dan Provider sebagai state management nya.<br><br>Didalam aplikasi ini terdapat beberapa modul ITSM seperti Incident, Request, Approval dll.<br>selain itu aplikasi ini menggunakan Rest API sebagai transaksi data dan JWT untuk keamanan datanya</br></p>",
             "ui": [],
             "image": "/assets/data/portfolio/ptp.png"
         },
         {
             "title": "ESTIM ITSM",
-            "description": "",
+            "description": "<p><b>ESTIM ITSM</b> adalah aplikasi ITSM pertama yang di buat oleh anak bangsa, dan sudah mendapatkan rekor muri sebagai Aplikasi ITSM pertama di indonesia.<br><br>terdapat beberapa modul ITSM dalam aplikasi ini seperti Incident, Request, Problem, Change, dll.<br>selain itu aplikasi ini dibagi menjadi 2 tampilan yaitu Requester dan Support, dan terdapat beberapa dashboard report yang bisa digunakan user.<br><br>Aplikasi ini dibuild menggunakan framework Flutter dan GetX sebagai state managementnya, sedangkan untuk transaksi data nya menggunakan Rest API & JWT</p>",
             "ui": [],
             "image": "/assets/data/portfolio/estim-itsm.png"
         },
