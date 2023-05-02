@@ -59,7 +59,7 @@
         },
         {
             "title": "PIH Customer Facing",
-            "description": "",
+            "description": "<p><b>PIH Customer Facing</b> merupakan aplikasi ESTIM Mobile yang dibuat untuk customer dari PT. Pupuk Indonesia Holding,<br> di dalam aplikasi ini terdapat beberapa modul ITSM seperti Request, Incident, Problem, Change Request, dll.<br><br>Aplikasi ini juga di buat menggunakan framework Flutter dengan GetX sebagai state managementnya dan transaksi data nya menggunakan Rest API dengan JWT sebagai keamanannya</p>",
             "image": "/assets/data/portfolio/pih.png"
         },
         {
