@@ -64,7 +64,7 @@
         },
         {
             "title": "SOMEAH",
-            "description": "",
+            "description": "<p><b>SOMEAH</b> adalah aplikasi Omnichannel ESTIM.<br>apikasi ini dibuat untuk mempermudah handling request atau incident dari customer dalam beberapa channel social media melalui 1 aplikasi.<br><br>Aplikasi ini dibuat menggunakan framework Flutter dengan Getx sebagai state managementnya, dan Transaksi datanya menggunakan Rest API dengan JWT sebagai keamanannya</p>",
             "ui": [],
             "image": "/assets/data/portfolio/someah.png"
         },
