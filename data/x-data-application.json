@@ -70,7 +70,7 @@
         },
         {
             "title": "Lintasarta WTM",
-            "description": "",
+            "description": "<p><b>Lintasarta WTM</b> adalah aplikasi Work for Talent Management yang dibuat untuk menujang kinerja HR hanya dengan menggunakan aplikasi. <br><br> didalam aplikasi ini terdapat beberapa module yaitu Resource Request, Timecard, Competency dll. <br> selain itu employee bisa mengajukan request cuti dan sebagainya hanya dengan menggunakan Resource Request. <br><br> Aplikasi ini dibuat dengan menggunakan framework flutter dengan Getx sebagai state managementnya dan untuk transaksi datanya menggunakan Rest API dengan JWT sebagai keamanan datanya</p>",
             "ui": [],
             "image": "/assets/data/portfolio/lintas-wtm.png"
         }
