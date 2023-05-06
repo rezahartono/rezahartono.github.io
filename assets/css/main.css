@@ -5,6 +5,12 @@
   padding: 10px 0;
 }
 
+.navbar-light {
+  -webkit-backdrop-filter: blur(10px) saturate(150%);
+          backdrop-filter: blur(10px) saturate(150%);
+  background-color: hsla(200, 50%, 100%, 0.6) !important;
+}
+
 li.nb-item {
   margin: 0 10px !important;
   display: inline-block;
