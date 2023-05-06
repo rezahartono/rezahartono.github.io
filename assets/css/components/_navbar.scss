@@ -56,8 +56,10 @@ li.ft-item {
 }
 
 @media only screen and (max-width: 768px) {
+
+    .navbar-light,
     .navbar-collapse {
         backdrop-filter: blur(10px) saturate(150%);
-        background-color: hsla(266, 100%, 99%, .5) !important;
+        background-color: $c-light !important;
     }
 }
