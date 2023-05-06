@@ -8,7 +8,7 @@
 .navbar-light {
   -webkit-backdrop-filter: blur(10px) saturate(150%);
           backdrop-filter: blur(10px) saturate(150%);
-  background-color: hsla(200, 50%, 100%, 0.6) !important;
+  background-color: hsla(266, 100%, 99%, 0.5) !important;
 }
 
 li.nb-item {
@@ -49,6 +49,13 @@ li.ft-item .nav-link:hover {
   font-weight: 700;
 }
 
+@media only screen and (max-width: 768px) {
+  .navbar-collapse {
+    -webkit-backdrop-filter: blur(10px) saturate(150%);
+            backdrop-filter: blur(10px) saturate(150%);
+    background-color: hsla(266, 100%, 99%, 0.5) !important;
+  }
+}
 .btn {
   border-radius: 10px;
   padding: 10px;

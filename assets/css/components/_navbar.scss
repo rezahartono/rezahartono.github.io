@@ -7,8 +7,9 @@
 
 .navbar-light {
     backdrop-filter: blur(10px) saturate(150%);
-    background-color: hsla(200, 50%, 100%, .6) !important;
+    background-color: hsla(266, 100%, 99%, .5) !important;
 }
+
 
 li.nb-item {
     margin: 0 10px !important;
@@ -52,4 +53,11 @@ li.ft-item {
 .navbar-brand {
     font-size: $fs-h2;
     font-weight: $fw-bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-collapse {
+        backdrop-filter: blur(10px) saturate(150%);
+        background-color: hsla(266, 100%, 99%, .5) !important;
+    }
 }
