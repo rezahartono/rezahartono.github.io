@@ -26,10 +26,6 @@
             "title": "Ultima Lintasarta",
             "description": "<p><b>Ultima Lintasarta</b> adalah aplikasi Customer Facing Lintasarta, yang di buat untuk customer <b>Kominfo</b>.<br>aplikasi ini dibuat dengan teknologi framework flutter dengan sate management nya provider, dengan transaksi data mengunakan API. <br>didalam aplikasi ini terdapat beberapa menu dan dashboard untuk menunjang kebutuhan user dari kominfo. </p>",
             "ui": [
-                "/assets/data/portfolio/ui/lintasarta-kominfo/capture1.jpg",
-                "/assets/data/portfolio/ui/lintasarta-kominfo/capture2.jpg",
-                "/assets/data/portfolio/ui/lintasarta-kominfo/capture3.jpg",
-                "/assets/data/portfolio/ui/lintasarta-kominfo/capture4.jpg"
             ],
             "image": "/assets/data/portfolio/lintas-kominfo.png"
         },
